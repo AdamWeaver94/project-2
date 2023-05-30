@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* reset for all elements */
+/* preset for all elements */
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +10,13 @@
 /* style for body */
 
 body {
-    height: 50vh;
-    display: flex;
     background-color: rgb(206, 206, 206);
-}
+    font-family: 'Press Start 2P', cursive;
+    }
 
 h1 {
-    font-family: Cinzel, sans-serif;
-    font-weight: 300;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
     letter-spacing: 5px;
     color: red;
 }
@@ -28,6 +27,11 @@ nav {
     display: flex;
     top: 0;
     left: 0;
+}
+
+.pixel_title{
+    line-height: 75px;
+    text-align: center;
 }
 
 .matching_game {
