@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+/* reset for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style for body */
+
+body {
+    height: 50vh;
+    display: flex;
+    background-color: rgb(206, 206, 206);
+}
+
+.matching_game {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+/* style for cards */
+
+.card {
+    height: calc(30% - 10px);
+    width: calc(45% - 10px);
+    margin: 8px;
+    position: relative;
+}
+
+.front_side,
+.rear_side {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgb(221, 237, 251);
+}
