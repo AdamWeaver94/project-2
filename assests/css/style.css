@@ -18,20 +18,21 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     font-weight: 400;
     letter-spacing: 5px;
-    color: red;
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
 }
 
 nav {
     height: 75px;
     width: 100%;
     display: flex;
-    top: 0;
-    left: 0;
+    margin-top: 5%;
 }
 
 .pixel_title{
     line-height: 75px;
     text-align: center;
+    margin: auto;
 }
 
 .matching_game {
@@ -42,6 +43,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    perspective: 1000px;
 }
 
 /* style for cards */
@@ -51,6 +53,14 @@ nav {
     width: calc(45% - 10px);
     margin: 8px;
     position: relative;
+    transform-style: preserve-3d;
+    transition: transform .3s;
+}
+
+/* card flip animation */
+
+.card.flip {
+    transform: rotateY('180deg');
 }
 
 .front_side,
