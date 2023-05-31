@@ -40,6 +40,8 @@ nav {
     margin: auto;
     flex-wrap: wrap;
     display: flex;
+    flex-direction: column;
+    align-content: space-around;
 }
 
 /* style for cards */
